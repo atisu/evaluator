@@ -1,14 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import sys
 import time
 import multiprocessing
 import copy
 from asteval import Interpreter, make_symbol_table
-
-
-# Python 3 required
-assert sys.version_info[0] == 3, "No country for old snakes"
 
 
 class TimeoutException(Exception):
